@@ -5,8 +5,8 @@ def get_days_from_today(date):
     except ValueError:
         return None
 
-    data_today = datetime.today()
-    result = data_today - input_data
+    date_today = datetime.today()
+    result = date_today - input_data
     return result.days
 
 print(get_days_from_today("2010-10-09"))
