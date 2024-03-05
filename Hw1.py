@@ -1,7 +1,6 @@
 from datetime import datetime
 def get_days_from_today(date):
     try:
-
         input_data = datetime.strptime(date, "%Y-%m-%d")
     except ValueError:
         return None
